@@ -71,19 +71,19 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
         step((generator = generator.apply(thisArg, _arguments || [])).next());
     });
 };
-Object.defineProperty(exports, "__esModule", ({ value: true }));
-exports.wait = void 0;
-function wait(milliseconds) {
-    return __awaiter(this, void 0, void 0, function* () {
-        return new Promise(resolve => {
-            if (isNaN(milliseconds)) {
-                throw new Error('milliseconds not a number');
-            }
-            setTimeout(() => resolve('done!'), milliseconds);
-        });
-    });
-}
-exports.wait = wait;
+// Object.defineProperty(exports, "__esModule", ({ value: true }));
+// exports.wait = void 0;
+// function wait(milliseconds) {
+//     return __awaiter(this, void 0, void 0, function* () {
+//         return new Promise(resolve => {
+//             if (isNaN(milliseconds)) {
+//                 throw new Error('milliseconds not a number');
+//             }
+//             setTimeout(() => resolve('done!'), milliseconds);
+//         });
+//     });
+// }
+// exports.wait = wait;
 
 
 /***/ }),
